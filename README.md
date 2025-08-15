@@ -47,10 +47,10 @@ print(response.choices[0].message.content)
 
 ## Prerequisites
 
-You need a running llama.cpp server with the `--api` flag enabled:
+You need a running llama.cpp server somewhere:
 
 ```bash
-./llama-server --model your-model.gguf --api --port 8080
+./llama-server --model your-model.gguf
 ```
 
 For multimodal support, use a vision-capable model like LLaVA.
